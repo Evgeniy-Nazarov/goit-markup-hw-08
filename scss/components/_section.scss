@@ -1,0 +1,43 @@
+.hero-section {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: var(--backgraund-hero-color);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../Images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.after-hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  text-align: left;
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.visually {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--backgraund-command);
+}
+
+.client {
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.footer {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 252px;
+  background-color: var(--backgraund-hero-color);
+}
