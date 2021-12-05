@@ -28,51 +28,102 @@
   </head>
 
   <body>
-    <!-- ---------------------------------Хэдер----------------------------------------------- -->
-    <header class="header">
-      <div class="header-container container">
-        <nav class="header-nav">
-          <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
-          <ul class="nav-menu list">
-            <li class="nav-menu__item">
-              <a class="nav-menu__link link current" href="./index.html">Студия</a>
+    <div class="container">
+      <!-----------------------------------Хэдер----------------------------------------------- -->
+      <header class="header">
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
+            <ul class="nav-menu list">
+              <li class="nav-menu__item">
+                <a class="nav-menu__link link current" href="./index.html">Студия</a>
+              </li>
+
+              <li class="nav-menu__item">
+                <a class="nav-menu__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+
+          <!-- =================mobile-menu=========================== -->
+          <button class="burger-btn" data-menu-open>
+            <svg class="burger-btn-icon">
+              <use href="./Images/sprite.svg#icon-burger-btn"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu" data-menu>
+            <button class="close-btn" data-menu-close>
+              <svg class="close-btn-icon">
+                <use href="./Images/sprite.svg#icon-close-btn"></use>
+              </svg>
+            </button>
+            <div class="nav-munu__mobile">
+              <ul class="mobile-modal list">
+                <li class="mobile-modal__item">
+                  <a class="mobile-modal__link link current" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-modal__item">
+                  <a class="mobile-modal__link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-modal__item">
+                  <a class="mobile-modal__link link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-mobile__container">
+              <ul class="contact-mobile__list">
+                
+                </li>
+                <li class="contact-mobile__item list">
+                  <a class="contact-mobile__tel link" href="tel:+380961111111">+380961111111</a>
+                </li>
+                <li class="contact-mobile__item list">
+                  <a class="contact-mobile__mail link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+              </ul>
+            </div>
+
+            <ul class="social-mobile list">
+              <li class="social-mobile__item"><a class="social-mobile__link link" href="#">Instagram</a></li>
+              <li class="social-mobile__item"><a class="social-mobile__link link" href="#">Twitter</a></li>
+              <li class="social-mobile__item"><a class="social-mobile__link link" href="#">Facebook</a></li>
+              <li class="social-mobile__item"><a class="social-mobile__link link" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
+          <ul class="contact-menu contact-container">
+            <li class="contact-menu__item list">
+              <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
+                ><svg class="contact-menu__icon" width="16" height="12">
+                  <use href="./Images/sprite-4.svg#icon-mail"></use></svg
+                >info@devstudio.com</a
+              >
             </li>
-
-            <li class="nav-menu__item"><a class="nav-menu__link link" href="./portfolio.html">Портфолио</a></li>
-            <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
+            <li class="contact-menu__item list">
+              <a class="contact-menu__tel link" href="tel:+380961111111"
+                ><svg class="contact-menu__icon" width="10" height="16">
+                  <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
+                >+380961111111</a
+              >
+            </li>
           </ul>
-        </nav>
-        <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
-        <ul class="contact-menu contact-container">
-          <li class="contact-menu__item list">
-            <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
-              ><svg class="contact-menu__icon" width="16" height="12">
-                <use href="./Images/sprite-4.svg#icon-mail"></use></svg
-              >info@devstudio.com</a
-            >
-          </li>
+        </div>
+      </header>
 
-          <li class="contact-menu__item list">
-            <a class="contact-menu__tel link" href="tel:+380961111111"
-              ><svg class="contact-menu__icon" width="10" height="16">
-                <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
-              >+380961111111</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
-
-    <!-- --------------------------------------Герой-------------------------------------------------- -->
-    <main>
-      <section class="hero-section">
+      <!-- --------------------------------------Герой-------------------------------------------------- -->
+      <!-- <main> -->
+      <!-- <section class="hero-section">
         <div class="hero-container container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-btn" data-modal-open type="button">Заказать услугу</button>
         </div>
-      </section>
+      </section> -->
       <!-- --------------------------------------Преимущества--------------------------------------- -->
-      <section class="after-hero">
+      <!-- <section class="after-hero">
         <div class="after-hero__container container">
           <h2 style="display: none">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quae ullam ratione
@@ -134,9 +185,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ------------------------------------------Чем мы занимаемся-------------------------------------- -->
-      <section class="visually">
+      <!-- <section class="visually">
         <div class="visually-container container">
           <h2 class="second-title">Чем мы занимаемся</h2>
           <ul class="visually__list list">
@@ -172,9 +223,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- ---------------------------------------Наша команда--------------------------------- -->
-      <section class="command">
+      <!-- <section class="command">
         <div class="command-container container">
           <h2 class="second-title">Наша Команда</h2>
           <ul class="command__list list">
@@ -344,9 +395,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!-- -----------------------------Наши клиенты-------------------------------------- -->
-      <section class="client container">
+      <!-- <section class="client container">
         <h2 class="client__title">Постоянные клиенты</h2>
         <ul class="client__list">
           <li class="client__item list">
@@ -392,9 +443,9 @@
             </a>
           </li>
         </ul>
-      </section>
+      </section> -->
       <!-- ----------------------------------Футер---------------------------------------- -->
-      <footer class="footer">
+      <!-- <footer class="footer">
         <div class="footer__container container">
           <div class="footer_information">
             <a href="./index.html" lang="en" class="logo logo-footer link">Web<span>Studio</span></a>
@@ -471,8 +522,10 @@
             </div>
           </form>
         </div>
-      </footer>
-      <div class="backdrop is-hidden" data-modal>
+      </footer> -->
+
+      <!-- -------------------------Modal------------------------------ -->
+      <!-- <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal__btn" data-modal-close>
             <svg class="modal__close-icon" width="11" height="11">
@@ -546,8 +599,10 @@
             <button class="modal-form__button" type="submit">Отправить</button>
           </form>
         </div>
-      </div>
-    </main>
+      </div> -->
+      <!-- </main> -->
+    </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
-  <script src="./js/modal.js"></script>
+  <!-- <script src="./js/modal.js"></script> -->
 </html>
