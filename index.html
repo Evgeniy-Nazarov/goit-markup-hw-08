@@ -31,59 +31,58 @@
     <div class="container">
       <!-----------------------------------Хэдер----------------------------------------------- -->
       <header class="header">
-        <div class="header-container">
-          <nav class="header-nav">
-            <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
-            <ul class="nav-menu list">
-              <li class="nav-menu__item">
-                <a class="nav-menu__link link current" href="./index.html">Студия</a>
-              </li>
+        <nav class="header-nav">
+          <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
+          <ul class="nav-menu list">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link link current" href="./index.html">Студия</a>
+            </li>
 
-              <li class="nav-menu__item">
-                <a class="nav-menu__link link" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
-            </ul>
-          </nav>
+            <li class="nav-menu__item">
+              <a class="nav-menu__link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
 
-          <!-- =================mobile-menu=========================== -->
-          <button class="burger-btn" data-menu-open>
-            <svg class="burger-btn-icon">
-              <use href="./Images/sprite.svg#icon-burger-btn"></use>
+        <!-- =================mobile-menu=========================== -->
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-btn-icon" width="40" height="40">
+            <use href="./Images/sprite.svg#icon-burger-btn"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" data-menu>
+          <button class="close-btn" data-menu-close>
+            <svg class="close-btn-icon">
+              <use href="./Images/sprite.svg#icon-close-btn"></use>
             </svg>
           </button>
-          <div class="mobile-menu" data-menu>
-            <button class="close-btn" data-menu-close>
-              <svg class="close-btn-icon">
-                <use href="./Images/sprite.svg#icon-close-btn"></use>
-              </svg>
-            </button>
-            <div class="nav-menu__mobile">
-              <ul class="mobile-modal list">
-                <li class="mobile-modal__item">
-                  <a class="mobile-modal__link link current" href="./index.html">Студия</a>
-                </li>
-                <li class="mobile-modal__item">
-                  <a class="mobile-modal__link link" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li class="mobile-modal__item">
-                  <a class="mobile-modal__link link" href="#">Контакты</a>
-                </li>
-              </ul>
-            </div>
 
-            <div class="contact-mobile__container">
-              <ul class="contact-mobile__list">
-                <li class="contact-mobile__item list">
-                  <a class="contact-mobile__tel link" href="tel:+380961111111">+380961111111</a>
-                </li>
-                <li class="contact-mobile__item list">
-                  <a class="contact-mobile__mail link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div class="nav-menu__mobile">
+            <ul class="mobile-modal list">
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link current" href="./index.html">Студия</a>
+              </li>
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-mobile__container">
+            <ul class="contact-mobile__list">
+              <li class="contact-mobile__item list">
+                <a class="contact-mobile__tel link" href="tel:+380961111111">+380961111111</a>
+              </li>
+              <li class="contact-mobile__item list">
+                <a class="contact-mobile__mail link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
             <ul class="social-mobile list">
               <li class="social-mobile__item">
                 <a class="social-mobile__link link" href="#">Instagram</a>
@@ -99,101 +98,102 @@
               </li>
             </ul>
           </div>
-
-          <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
-          <ul class="contact-menu contact-container">
-            <li class="contact-menu__item list">
-              <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
-                ><svg class="contact-menu__icon" width="16" height="12">
-                  <use href="./Images/sprite-4.svg#icon-mail"></use></svg
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contact-menu__item list">
-              <a class="contact-menu__tel link" href="tel:+380961111111"
-                ><svg class="contact-menu__icon" width="10" height="16">
-                  <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
-                >+380961111111</a
-              >
-            </li>
-          </ul>
         </div>
+
+        <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
+
+        <ul class="contact-menu contact-container">
+          <li class="contact-menu__item list">
+            <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
+              ><svg class="contact-menu__icon" width="16" height="12">
+                <use href="./Images/sprite-4.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-menu__item list">
+            <a class="contact-menu__tel link" href="tel:+380961111111"
+              ><svg class="contact-menu__icon" width="10" height="16">
+                <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
+              >+380961111111</a
+            >
+          </li>
+        </ul>
       </header>
 
       <!-- --------------------------------------Герой-------------------------------------------------- -->
-      <!-- <main> -->
-      <!-- <section class="hero-section">
-        <div class="hero-container container">
+      <main>
+        <section class="hero-section">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-btn" data-modal-open type="button">Заказать услугу</button>
-        </div>
-      </section> -->
-      <!-- --------------------------------------Преимущества--------------------------------------- -->
-      <!-- <section class="after-hero">
-        <div class="after-hero__container container">
-          <h2 style="display: none">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quae ullam ratione
-            aperiam aliquid distinctio tenetur consequuntur consectetur, beatae illo nam, dolore
-            iure inventore mollitia culpa quia iste at atque.
-          </h2>
-          <ul class="after-hero__list list">
-            <li class="after-hero__item">
-              <div class="after-hero__border">
-                <a href="" class="after-hero__link">
-                  <svg class="after-hero__icon list" width="70" height="70">
-                    <use href="./Images/sprite-2.svg#icon-antenna"></use>
-                  </svg>
-                </a>
-              </div>
-              <h3 class="after-hero__pre-title">Внимание к деталям</h3>
-              <p class="after-hero__information">
-                Идейные соображения, а также начало повседневной работы по формированию позиции.
-              </p>
-            </li>
-            <li class="after-hero__item">
-              <div class="after-hero__border">
-                <a href="" class="after-hero__link">
-                  <svg class="after-hero__icon list" width="70" height="70">
-                    <use href="./Images/sprite-2.svg#icon-clock"></use>
-                  </svg>
-                </a>
-              </div>
-              <h3 class="after-hero__pre-title">Пунктуальность</h3>
-              <p class="after-hero__information">
-                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-              </p>
-            </li>
-            <li class="after-hero__item">
-              <div class="after-hero__border">
-                <a href="" class="after-hero__link">
-                  <svg class="after-hero__icon list" width="70" height="70">
-                    <use href="./Images/sprite-2.svg#icon-diagram"></use>
-                  </svg>
-                </a>
-              </div>
-              <h3 class="after-hero__pre-title">Планирование</h3>
-              <p class="after-hero__information">
-                Равным образом консультация с широким активом в значительной степени обуславливает.
-              </p>
-            </li>
-            <li class="after-hero__item">
-              <div class="after-hero__border">
-                <a href="" class="after-hero__link">
-                  <svg class="after-hero__icon list" width="70" height="70">
-                    <use href="./Images/sprite-2.svg#icon-astronaut"></use>
-                  </svg>
-                </a>
-              </div>
-              <h3 class="after-hero__pre-title">Современные технологии</h3>
-              <p class="after-hero__information">
-                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section> -->
-      <!-- ------------------------------------------Чем мы занимаемся-------------------------------------- -->
-      <!-- <section class="visually">
+        </section>
+        <!-- --------------------------------------Преимущества--------------------------------------- -->
+        <section class="after-hero">
+          <div class="after-hero__container">
+            <h2 style="display: none">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quae ullam ratione
+              aperiam aliquid distinctio tenetur consequuntur consectetur, beatae illo nam, dolore
+              iure inventore mollitia culpa quia iste at atque.
+            </h2>
+            <ul class="after-hero__list list">
+              <li class="after-hero__item">
+                <div class="after-hero__border">
+                  <a href="" class="after-hero__link">
+                    <svg class="after-hero__icon list" width="70" height="70">
+                      <use href="./Images/sprite-2.svg#icon-antenna"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="after-hero__pre-title">Внимание к деталям</h3>
+                <p class="after-hero__information">
+                  Идейные соображения, а также начало повседневной работы по формированию позиции.
+                </p>
+              </li>
+              <li class="after-hero__item">
+                <div class="after-hero__border">
+                  <a href="" class="after-hero__link">
+                    <svg class="after-hero__icon list" width="70" height="70">
+                      <use href="./Images/sprite-2.svg#icon-clock"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="after-hero__pre-title">Пунктуальность</h3>
+                <p class="after-hero__information">
+                  Задача организации, в особенности же рамки и место обучения кадров влечет за
+                  собой.
+                </p>
+              </li>
+              <li class="after-hero__item">
+                <div class="after-hero__border">
+                  <a href="" class="after-hero__link">
+                    <svg class="after-hero__icon list" width="70" height="70">
+                      <use href="./Images/sprite-2.svg#icon-diagram"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="after-hero__pre-title">Планирование</h3>
+                <p class="after-hero__information">
+                  Равным образом консультация с широким активом в значительной степени
+                  обуславливает.
+                </p>
+              </li>
+              <li class="after-hero__item">
+                <div class="after-hero__border">
+                  <a href="" class="after-hero__link">
+                    <svg class="after-hero__icon list" width="70" height="70">
+                      <use href="./Images/sprite-2.svg#icon-astronaut"></use>
+                    </svg>
+                  </a>
+                </div>
+                <h3 class="after-hero__pre-title">Современные технологии</h3>
+                <p class="after-hero__information">
+                  Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- ------------------------------------------Чем мы занимаемся-------------------------------------- -->
+        <!-- <section class="visually">
         <div class="visually-container container">
           <h2 class="second-title">Чем мы занимаемся</h2>
           <ul class="visually__list list">
@@ -230,8 +230,8 @@
           </ul>
         </div>
       </section> -->
-      <!-- ---------------------------------------Наша команда--------------------------------- -->
-      <!-- <section class="command">
+        <!-- ---------------------------------------Наша команда--------------------------------- -->
+        <!-- <section class="command">
         <div class="command-container container">
           <h2 class="second-title">Наша Команда</h2>
           <ul class="command__list list">
@@ -402,8 +402,8 @@
           </ul>
         </div>
       </section> -->
-      <!-- -----------------------------Наши клиенты-------------------------------------- -->
-      <!-- <section class="client container">
+        <!-- -----------------------------Наши клиенты-------------------------------------- -->
+        <!-- <section class="client container">
         <h2 class="client__title">Постоянные клиенты</h2>
         <ul class="client__list">
           <li class="client__item list">
@@ -450,8 +450,8 @@
           </li>
         </ul>
       </section> -->
-      <!-- ----------------------------------Футер---------------------------------------- -->
-      <!-- <footer class="footer">
+        <!-- ----------------------------------Футер---------------------------------------- -->
+        <!-- <footer class="footer">
         <div class="footer__container container">
           <div class="footer_information">
             <a href="./index.html" lang="en" class="logo logo-footer link">Web<span>Studio</span></a>
@@ -530,85 +530,88 @@
         </div>
       </footer> -->
 
-      <!-- -------------------------Modal------------------------------ -->
-      <!-- <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-          <button type="button" class="modal__btn" data-modal-close>
-            <svg class="modal__close-icon" width="11" height="11">
-              <use href="./Images/sprite-2.svg#icon-close"></use>
-            </svg>
-          </button>
+        <!-- -------------------------Modal------------------------------ -->
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="modal__btn" data-modal-close>
+              <svg class="modal__close-icon" width="11" height="11">
+                <use href="./Images/sprite-2.svg#icon-close"></use>
+              </svg>
+            </button>
 
-          <form action="#" class="modal-form">
-            <p class="modal-form__text">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="modal-form">
+              <p class="modal-form__text">Оставьте свои данные, мы вам перезвоним</p>
 
-            <label class="modal-form__field">
-              <span class="modal-form__text-name">Имя</span>
-              <div class="modal-form__wrapper">
-                <input
-                  class="modal-form__input"
-                  name="user-name"
-                  minlength="2"
-                  pattern="[a-zA-Zа-яА-ЯЁ]+"
-                  title="Имя должно содержать символы кириллицы или латиницы "
-                  required
-                  type="text"
-                />
-                <svg class="modal-form__icon" width="18" height="18">
-                  <use href="./Images/sprite.svg#icon-name"></use>
-                </svg>
-              </div>
-            </label>
+              <label class="modal-form__field">
+                <span class="modal-form__text-name">Имя</span>
+                <div class="modal-form__wrapper">
+                  <input
+                    class="modal-form__input"
+                    name="user-name"
+                    minlength="2"
+                    pattern="[a-zA-Zа-яА-ЯЁ]+"
+                    title="Имя должно содержать символы кириллицы или латиницы "
+                    required
+                    type="text"
+                  />
+                  <svg class="modal-form__icon" width="18" height="18">
+                    <use href="./Images/sprite.svg#icon-name"></use>
+                  </svg>
+                </div>
+              </label>
 
-            <label class="modal-form__field">
-              <span class="modal-form__text-name">Телефон</span>
-              <div class="modal-form__wrapper">
-                <input
-                  class="modal-form__input"
-                  name="user-phone"
-                  type="tel"
-                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                  title="099-062-96-27"
-                  required
-                />
-                <svg class="modal-form__icon" width="18" height="18">
-                  <use href="./Images/sprite.svg#icon-phone"></use>
-                </svg>
-              </div>
-            </label>
+              <label class="modal-form__field">
+                <span class="modal-form__text-name">Телефон</span>
+                <div class="modal-form__wrapper">
+                  <input
+                    class="modal-form__input"
+                    name="user-phone"
+                    type="tel"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    title="099-062-96-27"
+                    required
+                  />
+                  <svg class="modal-form__icon" width="18" height="18">
+                    <use href="./Images/sprite.svg#icon-phone"></use>
+                  </svg>
+                </div>
+              </label>
 
-            <label class="modal-form__field">
-              <span class="modal-form__text-name">Почта</span>
-              <div class="modal-form__wrapper">
-                <input class="modal-form__input" name="user-mail" type="email" required />
-                <svg class="modal-form__icon" width="18" height="18">
-                  <use href="./Images/sprite.svg#icon-email"></use>
-                </svg>
-              </div>
-            </label>
+              <label class="modal-form__field">
+                <span class="modal-form__text-name">Почта</span>
+                <div class="modal-form__wrapper">
+                  <input class="modal-form__input" name="user-mail" type="email" required />
+                  <svg class="modal-form__icon" width="18" height="18">
+                    <use href="./Images/sprite.svg#icon-email"></use>
+                  </svg>
+                </div>
+              </label>
 
-            <label class="modal-form__field">
-              <span class="modal-form__text-name">Комментарий</span>
-              <textarea
-                class="modal-form-message"
-                name="user-message"
-                placeholder="Введите текст"
-              ></textarea>
-            </label>
+              <label class="modal-form__field">
+                <span class="modal-form__text-name">Комментарий</span>
+                <textarea
+                  class="modal-form-message"
+                  name="user-message"
+                  placeholder="Введите текст"
+                ></textarea>
+              </label>
 
-            <input type="checkbox" id="accept-policy" class="modal-form__checkbox visually-hidden" />
-            <label for="accept-policy" class="modal-form__checkbox-label"
-              >Соглашаюсь с рассылкой и принимаю&nbsp
-              <a class="modal-link" href="#">Условия договора</a>
-            </label>
-
-            <button class="modal-form__button" type="submit">Отправить</button>
-          </form>
+              <input
+                type="checkbox"
+                id="accept-policy"
+                class="modal-form__checkbox visually-hidden"
+              />
+              <label for="accept-policy" class="modal-form__checkbox-label"
+                >Соглашаюсь с рассылкой и принимаю&nbsp
+                <a class="modal-link" href="#">Условия договора</a>
+              </label>
+              <button class="modal-form__button" type="submit">Отправить</button>
+            </form>
+          </div>
         </div>
-      </div> -->
-      <!-- </main> -->
+      </main>
     </div>
-    <script src="./js/mobile-menu.js"></script>
   </body>
-  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
 </html>
