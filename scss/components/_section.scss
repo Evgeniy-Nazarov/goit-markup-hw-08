@@ -1,22 +1,42 @@
 .after-hero {
+  margin-left: auto;
+  margin-right: auto;
+
   @media screen and(min-width: 768px) {
     width: 768px;
+    padding-top: 60px;
+    padding-bottom: 0px;
   }
 
   @media screen and(min-width:1200PX) {
     width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 0px;
   }
 }
 
 .visually {
-  padding-top: 0px;
+  padding-top: 94px;
   padding-bottom: 94px;
+
+  @media screen and(max-width: 1199px) {
+    display: none;
+  }
+
+  @media screen and(min-width:1200PX) {
+    display: block;
+  }
 }
 
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--backgraund-command);
+
+  @media screen and(min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .client {
@@ -26,9 +46,7 @@
 }
 
 .footer {
-  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 252px;
   background-color: var(--backgraund-hero-color);
 }
