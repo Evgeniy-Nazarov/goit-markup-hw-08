@@ -1,20 +1,25 @@
 .footer-form__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
+  @media screen and(max-width: 1199px) {
+    margin-top: 20px;
+  }
 }
 
 .footer-form__input {
+  margin-bottom: 30px;
+  width: 450px;
+  height: 50px;
   color: var(--primary-title-color);
   padding-left: 16px;
-  width: 358px;
-  height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
+
+  @media screen and(min-width: 1200px) {
+    width: 358px;
+    height: 50px;
+  }
 
   &::placeholder {
     font-family: Roboto;
@@ -40,12 +45,20 @@
 }
 
 .footer-form {
-  margin-left: 93px;
+  @media screen and(max-width: 1199px) {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
 }
 
 .footer-form__button {
   cursor: pointer;
-  margin-left: 12px;
   padding-left: 29px;
   width: 200px;
   height: 50px;
@@ -59,10 +72,14 @@
   line-height: 1.88;
   display: flex;
   align-items: center;
-  text-align: center;
   justify-content: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+
+  @media screen and(max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer-form__icon {
@@ -70,5 +87,22 @@
 }
 
 .footer-form__field {
-  display: flex;
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    margin-top: 20px;
+  }
+}
+
+.footer__tablet-menu {
+  @media screen and(min-width: 768px) and (max-width: 1199px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 60px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    display: flex;
+  }
 }
