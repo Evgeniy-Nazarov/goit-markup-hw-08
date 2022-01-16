@@ -22,35 +22,97 @@
 
 
 <body>
-    <!-- ---------------------------------Хэдер----------------------------------------------- -->
-    <header class="header">
-        <div class="header-container container">
-            <nav class="header-nav">
-                <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
-                <ul class="nav-menu list">
-                    <li class="nav-menu__item"><a class="nav-menu__link link" href="./index.html">Студия</a></li>
+     <div class="container">
+      <!-----------------------------------Хэдер----------------------------------------------- -->
+      <header class="header">
+        <nav class="header-nav">
+          <a href="./index.html" lang="en" class="logo logo-header">Web<span>Studio</span></a>
+          <ul class="nav-menu list">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link link " href="./index.html">Студия</a>
+            </li>
 
-                    <li class="nav-menu__item"><a class="nav-menu__link link current" href="./portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
-                </ul>
-            </nav>
-            <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
-            <ul class="contact-menu header contact-container">
+            <li class="nav-menu__item">
+              <a class="nav-menu__link link current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-menu__item"><a class="nav-menu__link link" href="#">Контакты</a></li>
+          </ul>
+        </nav>
 
-                <li class="contact-menu__item list"><a class="contact-menu__mail link" href="mailto:info@devstudio.com"><svg
-                            class="contact-menu__icon" width="16" height="12">
-                            <use href="./Images/sprite-4.svg#icon-mail"></use>
-                        </svg>info@devstudio.com</a>
-                </li>
+        <!-- =================mobile-menu=========================== -->
+        <button class="burger-btn" data-menu-open>
+          <svg class="burger-btn-icon" width="40" height="40">
+            <use href="./Images/sprite.svg#icon-burger-btn"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" data-menu>
+          <button class="close-btn" data-menu-close>
+            <svg class="close-btn-icon">
+              <use href="./Images/sprite.svg#icon-close-btn"></use>
+            </svg>
+          </button>
 
-                <li class="contact-menu__item list"><a class="contact-menu__tel link" href="tel:+380961111111"><svg
-                            class="contact-menu__icon" width="10" height="16">
-                            <use href="./Images/sprite-4.svg#icon-smartphone"></use>
-                        </svg>+380961111111</a></li>
+          <div class="nav-menu__mobile">
+            <ul class="mobile-modal list">
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link current" href="./index.html">Студия</a>
+              </li>
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="mobile-modal__item">
+                <a class="mobile-modal__link link" href="#">Контакты</a>
+              </li>
             </ul>
+          </div>
+
+          <div class="contact-mobile__container">
+            <ul class="contact-mobile__list">
+              <li class="contact-mobile__item list">
+                <a class="contact-mobile__tel link" href="tel:+380961111111">+380961111111</a>
+              </li>
+              <li class="contact-mobile__item list">
+                <a class="contact-mobile__mail link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="social-mobile list">
+              <li class="social-mobile__item">
+                <a class="social-mobile__link link" href="#">Instagram</a>
+              </li>
+              <li class="social-mobile__item">
+                <a class="social-mobile__link link" href="#">Twitter</a>
+              </li>
+              <li class="social-mobile__item">
+                <a class="social-mobile__link link" href="#">Facebook</a>
+              </li>
+              <li class="social-mobile__item">
+                <a class="social-mobile__link link" href="#">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
+
+        <!-- --------------------------------------Контакты-Хэдэр-------------------------------------------              -->
+
+        <ul class="contact-menu contact-container">
+          <li class="contact-menu__item list">
+            <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
+              ><svg class="contact-menu__icon" width="16" height="12">
+                <use href="./Images/sprite-4.svg#icon-mail"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-menu__item list">
+            <a class="contact-menu__tel link" href="tel:+380961111111"
+              ><svg class="contact-menu__icon" width="10" height="16">
+                <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
+              >+380961111111</a
+            >
+          </li>
+        </ul>
+      </header>
     <main class="main">
     <section class="portfolio">
         <div class="portfolio__container container">
@@ -187,14 +249,14 @@
     
         </main>
         <footer class="footer">
-            <div class="footer__container container">
+        <div class="footer__container">
+             <div class="footer__tablet-menu">
           <div class="footer_information">
             <a href="./index.html" lang="en" class="logo logo-footer link">Web<span>Studio</span></a>
             <address class="footer__adress">
               <ul class="footer__contact-menu">
                 <li class="footer__map list">
-                  <a
-                    class="footer__map link"
+                  <a class="footer__map link"
                     href="https://goo.gl/maps/NYAGvsDjCZXEPNPM7"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -245,7 +307,7 @@
               </li>
             </ul>
           </div>
-
+</div>
           <form class="footer-form">
             <a class="footer-form__text link" href="#">Подпишитесь на рассылку</a>
             <div class="footer-form__wrapper">
@@ -263,9 +325,10 @@
             </div>
           </form>
         </div>
-        
-        </footer>
+      </footer>
         </main>
         </body>
+        <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
         
         </html>
