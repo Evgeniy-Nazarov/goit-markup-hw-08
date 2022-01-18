@@ -16,10 +16,6 @@
     display: flex;
     flex-wrap: wrap;
   }
-
-  // @media screen and (min-width: 1200px) {
-  //   display: flex;
-  // }
 }
 
 .after-hero__item {
@@ -83,12 +79,4 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-
-  @media screen and (min-width: 768px) {
-    max-width: 354px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    max-width: 270px;
-  }
 }
