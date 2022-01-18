@@ -1,17 +1,11 @@
 .after-hero {
-  margin-left: auto;
-  margin-right: auto;
-
+  padding-bottom: 0px;
   @media screen and(min-width: 768px) {
-    width: 768px;
     padding-top: 60px;
-    padding-bottom: 0px;
   }
 
   @media screen and(min-width:1200PX) {
-    width: 1200px;
     padding-top: 94px;
-    padding-bottom: 0px;
   }
 }
 
