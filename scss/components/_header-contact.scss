@@ -5,10 +5,11 @@
 
   @media screen and(min-width: 768px) {
     display: block;
-    margin-left: auto;
+    margin-right: auto;
   }
   @media screen and(min-width: 1200px) {
     display: flex;
+    margin-right: auto;
   }
 
   .contact-menu__item {
@@ -135,10 +136,10 @@
     }
   }
 
-  .contact-menu .contact-menu__item + .contact-menu__item {
-    display: none;
-    @media screen and (min-width: 1200px) {
-      margin-left: 50px;
-    }
-  }
+  // .contact-menu .contact-menu__item + .contact-menu__item {
+  //   display: none;
+  //   @media screen and (min-width: 1200px) {
+  //     margin-left: 50px;
+  //   }
+  // }
 }
