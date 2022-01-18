@@ -1063,7 +1063,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: auto;
   max-width: 450px;
 }
 
@@ -1078,7 +1078,7 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/hero-min-tablet.jpg);
-    height: 400px;
+    height: auto;
     max-width: 738px;
   }
 }
@@ -1094,8 +1094,8 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/hero-min-desktop.jpg);
-    height: 600px;
-    max-width: 1600px;
+    height: auto;
+    max-width: 1170px;
   }
 }
 
@@ -1238,18 +1238,6 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-@media screen and (min-width: 768px) {
-  .after-hero__information {
-    max-width: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .after-hero__information {
-    max-width: 270px;
-  }
 }
 
 .visually__text {
