@@ -48,13 +48,13 @@
         <!-- =================mobile-menu=========================== -->
         <button class="burger-btn" data-menu-open>
           <svg class="burger-btn-icon" width="40" height="40">
-            <use href="./Images/sprite.svg#icon-burger-btn"></use>
+            <use href="./images/sprite.svg#icon-burger-btn"></use>
           </svg>
         </button>
         <div class="mobile-menu" data-menu>
           <button class="close-btn" data-menu-close>
             <svg class="close-btn-icon">
-              <use href="./Images/sprite.svg#icon-close-btn"></use>
+              <use href="./images/sprite.svg#icon-close-btn"></use>
             </svg>
           </button>
 
@@ -106,14 +106,14 @@
           <li class="contact-menu__item list">
             <a class="contact-menu__mail link" href="mailto:info@devstudio.com"
               ><svg class="contact-menu__icon" width="16" height="12">
-                <use href="./Images/sprite-4.svg#icon-mail"></use></svg
+                <use href="./images/sprite-4.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contact-menu__item list">
             <a class="contact-menu__tel link" href="tel:+380961111111"
               ><svg class="contact-menu__icon" width="10" height="16">
-                <use href="./Images/sprite-4.svg#icon-smartphone"></use></svg
+                <use href="./images/sprite-4.svg#icon-smartphone"></use></svg
               >+380961111111</a
             >
           </li>
@@ -139,7 +139,7 @@
                 <div class="after-hero__border">
                   <a href="" class="after-hero__link">
                     <svg class="after-hero__icon list" width="70" height="70">
-                      <use href="./Images/sprite-2.svg#icon-antenna"></use>
+                      <use href="./images/sprite-2.svg#icon-antenna"></use>
                     </svg>
                   </a>
                 </div>
@@ -152,7 +152,7 @@
                 <div class="after-hero__border">
                   <a href="" class="after-hero__link">
                     <svg class="after-hero__icon list" width="70" height="70">
-                      <use href="./Images/sprite-2.svg#icon-clock"></use>
+                      <use href="./images/sprite-2.svg#icon-clock"></use>
                     </svg>
                   </a>
                 </div>
@@ -166,7 +166,7 @@
                 <div class="after-hero__border">
                   <a href="" class="after-hero__link">
                     <svg class="after-hero__icon list" width="70" height="70">
-                      <use href="./Images/sprite-2.svg#icon-diagram"></use>
+                      <use href="./images/sprite-2.svg#icon-diagram"></use>
                     </svg>
                   </a>
                 </div>
@@ -180,7 +180,7 @@
                 <div class="after-hero__border">
                   <a href="" class="after-hero__link">
                     <svg class="after-hero__icon list" width="70" height="70">
-                      <use href="./Images/sprite-2.svg#icon-astronaut"></use>
+                      <use href="./images/sprite-2.svg#icon-astronaut"></use>
                     </svg>
                   </a>
                 </div>
@@ -200,7 +200,7 @@
               <li class="visually__item">
                 <img
                   class="visually__link link"
-                  src="./Images/stady1.jpg"
+                  src="./images/stady1.jpg"
                   alt="Разрабатываем программное обеспечение"
                   width="370"
                   height="294"
@@ -210,7 +210,7 @@
               <li class="visually__item">
                 <img
                   class="visually__link link"
-                  src="./Images/stady2.jpg"
+                  src="./images/stady2.jpg"
                   alt="Адаптируем програмное обеспечение под мобильные телефоны"
                   width="370"
                   height="294"
@@ -220,7 +220,7 @@
               <li class="visually__item">
                 <img
                   class="visually__link link"
-                  src="./Images/stady3.jpg"
+                  src="./images/stady3.jpg"
                   alt="Тестируем программное обеспечение"
                   width="370"
                   height="294"
@@ -236,41 +236,82 @@
             <h2 class="second-title">Наша Команда</h2>
             <ul class="command__list list">
               <li class="command__item">
+                <picture>  
+                   <source  media="(min-width: 480px)" srcset="
+                   ./images/command/mobile-ihor1x.jpg 1x,
+                   ./images/command/mobile-ihor2x.jpg 2x       
+                  "
+                  type="image/webp"
+                />   
+                <source  media="(min-width: 480px)" srcset="
+                   ./images/command/mobile-ihorwebp1x.webp 1x,
+                   ./images/command/mobile-ihorwebp2x.webp 2x       
+                  "
+                  type="image/webp"
+                />   
+                  <source  media="(min-width: 768px)" srcset="
+                   ./images/command/tablet-ihor1x.jpg 1x,
+                   ./images/command/tablet-ihor2x.jpg 2x       
+                  "
+                  type="image/webp"
+                />   
+                <source  media="(min-width: 768px)" srcset="
+                   ./images/command/tablet-ihorwebp1x.webp 1x,
+                   ./images/command/tablet-ihorwebp2x.webp 2x       
+                  "
+                  type="image/webp"
+                /> 
+
+                 <source  media="(min-width: 1200px)" srcset="
+                   ./images/command/desktop-ihor1x.jpg 1x,
+                   ./images/command/desktop-ihor2x.jpg 2x       
+                  "
+                  type="image/webp"
+                />   
+                <source  media="(min-width: 1200px)" srcset="
+                   ./images/command/desktop-ihorwebp1x.webp 1x,
+                   ./images/command/desktop-ihorwebp2x.webp 2x       
+                  "
+                  type="image/webp"
+                /> 
+                  
+                
                 <img
                   class="command__link link"
-                  src="./Images/ihor.jpg"
+                  src="./images/ihor.jpg"
                   alt="Игорь Демьяненко"
                   width="810"
                   height="780"
                 />
+                </picture>
                 <h3 class="command__name">Игорь Демьяненко</h3>
                 <p class="command__profession" lang="en">Product Designer</p>
                 <ul class="social-list">
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-instagram"></use>
+                        <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-twitter"></use>
+                        <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-facebook"></use>
+                        <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-linkedin"></use>
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -279,7 +320,7 @@
               <li class="command__item">
                 <img
                   class="command__link link"
-                  src="./Images/olga.jpg"
+                  src="./images/olga.jpg"
                   alt="Ольга Репина"
                   width="810"
                   height="780"
@@ -290,28 +331,28 @@
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-instagram"></use>
+                        <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-twitter"></use>
+                        <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-facebook"></use>
+                        <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-linkedin"></use>
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -320,7 +361,7 @@
               <li class="command__item">
                 <img
                   class="command__link link"
-                  src="./Images/nikolay.jpg"
+                  src="./images/nikolay.jpg"
                   alt="Николай Тарасов"
                   width="810"
                   height="780"
@@ -331,28 +372,28 @@
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-instagram"></use>
+                        <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-twitter"></use>
+                        <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-facebook"></use>
+                        <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-linkedin"></use>
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -361,7 +402,7 @@
               <li class="command__item">
                 <img
                   class="command__link link"
-                  src="./Images/mihail.jpg"
+                  src="./images/mihail.jpg"
                   alt="Михаил Ермаков"
                   width="810"
                   height="780"
@@ -372,28 +413,28 @@
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-instagram"></use>
+                        <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-twitter"></use>
+                        <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-facebook"></use>
+                        <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-list__item list">
                     <a href="" class="social-link">
                       <svg class="social-list__icon list" width="20" height="20">
-                        <use href="./Images/sprite.svg#icon-linkedin"></use>
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
                   </li>
@@ -409,42 +450,42 @@
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-1"></use>
+                  <use href="./images/sprite-3.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-2"></use>
+                  <use href="./images/sprite-3.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-3"></use>
+                  <use href="./images/sprite-3.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-4"></use>
+                  <use href="./images/sprite-3.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-5"></use>
+                  <use href="./images/sprite-3.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li class="client__item list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
-                  <use href="./Images/sprite-3.svg#icon-client-6"></use>
+                  <use href="./images/sprite-3.svg#icon-client-6"></use>
                 </svg>
               </a>
             </li>
@@ -483,28 +524,28 @@
               <li class="social-list__item list">
                 <a href="" class="footer__social-link-black">
                   <svg class="social-list__icon-black list" width="20" height="20">
-                    <use href="./Images/sprite.svg#icon-instagram"></use>
+                    <use href="./images/sprite.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-list__item list">
                 <a href="" class="footer__social-link-black">
                   <svg class="social-list__icon-black list" width="20" height="20">
-                    <use href="./Images/sprite.svg#icon-twitter"></use>
+                    <use href="./images/sprite.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-list__item list">
                 <a href="" class="footer__social-link-black">
                   <svg class="social-list__icon-black list" width="20" height="20">
-                    <use href="./Images/sprite.svg#icon-facebook"></use>
+                    <use href="./images/sprite.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="social-list__item list">
                 <a href="" class="footer__social-link-black">
                   <svg class="social-list__icon-black list" width="20" height="20">
-                    <use href="./Images/sprite.svg#icon-linkedin"></use>
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
@@ -523,7 +564,7 @@
               </label>
               <button class="footer-form__button" type="submit" <a class="footer-form__button-link" href="#">Подписаться</a>
               <svg class="footer-form__icon" width="24" height="24">
-                    <use href="./Images/sprite.svg#icon-icon-send"></use>
+                    <use href="./images/sprite.svg#icon-icon-send"></use>
                   </svg> </button>
             </div>
           </form>
@@ -535,7 +576,7 @@
           <div class="modal">
             <button type="button" class="modal__btn" data-modal-close>
               <svg class="modal__close-icon" width="11" height="11">
-                <use href="./Images/sprite-2.svg#icon-close"></use>
+                <use href="./images/sprite-2.svg#icon-close"></use>
               </svg>
             </button>
 
@@ -555,7 +596,7 @@
                     type="text"
                   />
                   <svg class="modal-form__icon" width="18" height="18">
-                    <use href="./Images/sprite.svg#icon-name"></use>
+                    <use href="./images/sprite.svg#icon-name"></use>
                   </svg>
                 </div>
               </label>
@@ -572,7 +613,7 @@
                     required
                   />
                   <svg class="modal-form__icon" width="18" height="18">
-                    <use href="./Images/sprite.svg#icon-phone"></use>
+                    <use href="./images/sprite.svg#icon-phone"></use>
                   </svg>
                 </div>
               </label>
@@ -582,7 +623,7 @@
                 <div class="modal-form__wrapper">
                   <input class="modal-form__input" name="user-mail" type="email" required />
                   <svg class="modal-form__icon" width="18" height="18">
-                    <use href="./Images/sprite.svg#icon-email"></use>
+                    <use href="./images/sprite.svg#icon-email"></use>
                   </svg>
                 </div>
               </label>
