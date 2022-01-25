@@ -24,6 +24,7 @@
 
   @media screen and (min-width: 1200px) {
     width: 358px;
+    margin-right: 12px;
   }
 
   &::placeholder {
@@ -105,7 +106,6 @@
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    margin-bottom: 60px;
   }
 
   @media screen and(min-width: 1200px) {
