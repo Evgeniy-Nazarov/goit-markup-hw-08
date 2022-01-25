@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/main.min.css" /> </head>
 
   <body>
-    <div class="container">
+    <div class="container"></div>
       <!-----------------------------------Хэдер----------------------------------------------- -->
       <header class="header">
         <nav class="header-nav">
@@ -114,12 +114,12 @@
 
       <!-- --------------------------------------Герой-------------------------------------------------- -->
       <main>
-        <section class="hero-section">
+        <section class="hero-section ">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="hero-btn" data-modal-open type="button">Заказать услугу</button>
         </section>
         <!-- --------------------------------------Преимущества--------------------------------------- -->
-        <section class="after-hero">
+        <section class="after-hero container">
           <div class="after-hero__container container">
             <h2 style="display: none">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quae ullam ratione
@@ -185,7 +185,7 @@
           </div>
         </section>
         <!-- ------------------------------------------Чем мы занимаемся-------------------------------------- -->
-        <section class="visually">
+        <section class="visually container">
           <div class="visually-container">
             <h2 class="second-title">Чем мы занимаемся</h2>
             <ul class="visually__list list">
@@ -265,10 +265,10 @@
           </div>
         </section>
         <!-- ---------------------------------------Наша команда--------------------------------- -->
-        <section class="command">
+        <section class="command ">
           <div class="command-container">
             <h2 class="second-title">Наша Команда</h2>
-            <ul class="command__list list">
+            <ul class="command__list container list">
               <li class="command__item">
                 <picture>  
                     <source  media="(min-width: 1200px)" srcset="
@@ -594,10 +594,10 @@
           </div>
         </section>
         <!-- -----------------------------Наши клиенты-------------------------------------- -->
-        <section class="client">
+        <section class="client ">
           <h2 class="client__title">Постоянные клиенты</h2>
-          <ul class="client__list">
-            <li class="client__item list">
+          <ul class="client__list container">
+            <li class="client__item  list">
               <a href="" class="client__link">
                 <svg class="client__icon list" width="106" height="60">
                   <use href="./images/sprite-3.svg#icon-client-1"></use>
@@ -801,7 +801,7 @@
           </div>
         </div>
       </main>
-    </div>
+    
   </body>
   <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
