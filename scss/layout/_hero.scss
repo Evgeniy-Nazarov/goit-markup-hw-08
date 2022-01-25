@@ -1,7 +1,9 @@
 .hero-section {
   padding-top: 118px;
   padding-bottom: 118px;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   background-image: url(../images/hero/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -15,8 +17,8 @@
   }
 
   @media screen and(min-width:768px) {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero/hero-min-tablet.jpg);
     height: auto;
@@ -36,7 +38,7 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero/hero-min-desktop.jpg);
     height: auto;
-    max-width: 1200px;
+    max-width: 1600px;
 
     @media screen and (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
