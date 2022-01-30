@@ -1616,7 +1616,7 @@ img {
 @media screen and (max-width: 767px) {
   .portfolio__button-item {
     margin-right: 8px;
-    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .portfolio__button-item:last-child {
     margin-right: 0;
@@ -1665,7 +1665,7 @@ img {
 .main-menu {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 
 @media screen and (min-width: 768px) {
