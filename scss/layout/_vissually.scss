@@ -20,8 +20,7 @@
 
 .second-title {
   text-align: center;
-  height: 42px;
-  margin-bottom: 50px;
+
   font-weight: bold;
   font-size: 28px;
   line-height: 1.18;
@@ -29,7 +28,12 @@
   letter-spacing: 0.03em;
   color: var(--first-text-color);
 
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
+
   @media screen and(min-width:1200px) {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
   }
